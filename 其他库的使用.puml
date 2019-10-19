@@ -1,0 +1,11 @@
+@startuml
+
+!define SPRITESURL F:\git\uml\plantuml-stdlib\aws\AI\AmazonLex
+
+!includeurl SPRITESURL/AmazonLex.puml
+
+database "<$AmazonLex>\nAmazonLex" as AmazonLex
+
+node -> AmazonLex
+
+@enduml
